@@ -1,0 +1,26 @@
+name: minecraftCOMETS
+version: 1.0
+author: Jacob
+main: com.gmail.jakesisawesome1.minecraftCOMETS.main
+api-version: 1.16
+commands:
+  robot:
+    description: find the robot name corresponding to a year
+    usage: /robot
+    permission: minecraftCOMETS.robot
+  year:
+    description: find the year corresponding to the robot name
+    usage: /year
+    permission: minecraftCOMETS.robot
+  listRobots:
+    description: list all of the robots and years corresponding
+    usage: /listRobots
+    permission: minecraftCOMETS.robot
+  comp:
+    description: shows the robot and year for given comp
+    usage: /comp
+    permission: minecraftCOMETS.robot
+  listComps:
+    description: list all of the comps and years corresponding
+    usage: /listComps
+    permission: minecraftCOMETS.robot
